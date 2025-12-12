@@ -1,34 +1,47 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap');
+
+:root {
+    --font1: verdana, Geneva, Tahoma, sans-serif;
+    --font2:  "Noto Sans JP";
+    --font3:"Bitcount Prop Single", system-ui;
+}
+
 * { margin: 0px;        
     padding: 0px;
-
 }
+
 html,body {
 
     min-height: 100vh;
     background-color: violet;
-
+    font-family: var(--font3);
 }
+
 header {
 background-color: black;
 color: aliceblue;
 text-align: center;
+font-family: var(--font3);
 }
+
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
-
-
 }
+
 header > p {
 padding-bottom: 50px;
 
 }
+
 header a, footer a {
 color: aliceblue;
 text-decoration: none;
 font-weight: bolder;
 }
+
 header a:hover,footer a:hover{
 
     text-decoration: underline;
@@ -39,11 +52,12 @@ padding-top: 10%vh;
 padding-bottom: 10%vh;
 padding-left: 30px;
 line-height: 2em;
-
+font-family: var(--font3);
 }
+
 section.normal {
     background-color: aliceblue;
-    color: black;
+    color: black; 
 }
 
 section.imagem {
@@ -51,11 +65,11 @@ section.imagem {
     background-color: aquamarine;
     color: aliceblue;
 }
+
 section.imagem >p{
 background-color: rgba(0, 0, 0, 0.369);
-width: 400px;
-
 }
+
 footer{
     background-color: black;
     text-align: center;
