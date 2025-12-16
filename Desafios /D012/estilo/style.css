@@ -49,14 +49,15 @@ header a:hover,footer a:hover{
 
 section{
 padding-top: 10%vh;
-padding-bottom: 10%vh;
+padding-bottom:10%vh;
 padding-left: 30px;
 line-height: 2em;
 font-family: var(--font3);
 }
 
 section >p {
-padding-bottom: 2em;
+padding-bottom: 1em;
+padding-top: 5px;
 
 }
 
@@ -74,8 +75,9 @@ section.imagem {
 }
 
 section.imagem >p{
-background-color: rgba(0, 0, 0, 0.111);
+background-color: rgba(0, 0, 0, 0.009);
 text-shadow: 1px 1px 0px black;
+
 }
 
 section#img01{
